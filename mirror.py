@@ -1,9 +1,7 @@
 import discord
 import time
 import random
-
-TOKEN = 'NDU4MzEwMTE0NDEyMTk5OTQ2.Dgl1-Q.-f6XPRc7Yu5vc-e9_wc8_XreUnw'
-
+TOKEN = '-------'
 client = discord.Client()
 
 
