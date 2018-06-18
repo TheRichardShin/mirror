@@ -16,16 +16,16 @@ async def on_message(message):
     
     if message.content.startswith('!pick'):
         if rng == 1:
-            msg = 'dan'.format(message)
+            msg = 'Dan'.format(message)
             await client.send_message(message.channel, msg)
         elif rng == 2:
-            msg = 'casey'.format(message)
+            msg = 'Casey'.format(message)
             await client.send_message(message.channel, msg)
         elif rng == 3:
-            msg = 'jeff'.format(message)
+            msg = 'Jeff'.format(message)
             await client.send_message(message.channel, msg)    
         elif rng == 4:
-            msg = 'richard'.format(message)
+            msg = 'Richard'.format(message)
             await client.send_message(message.channel, msg)
   
 @client.event
